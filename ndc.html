@@ -1,1 +1,882 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Notre Dame Group Division - 50 Marks Crash Sheet</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Noto Sans Bengali", "Segoe UI", sans-serif;
+            background: #eef2f7;
+            color: #1f2937;
+            line-height: 1.7;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #071952, #0b5ed7);
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1050px;
+            margin: 25px auto 50px;
+        }
+
+        /* Intro */
+        .intro {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            border-left: 5px solid #0b5ed7;
+        }
+
+        .intro h2 {
+            color: #071952;
+            margin-bottom: 8px;
+        }
+
+        /* Subject Card */
+        .subject {
+            background: white;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .subject-title {
+            color: white;
+            padding: 15px 20px;
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .chemistry .subject-title {
+            background: #8e44ad;
+        }
+
+        .physics .subject-title {
+            background: #1565c0;
+        }
+
+        .biology .subject-title {
+            background: #198754;
+        }
+
+        .math .subject-title {
+            background: #d97706;
+        }
+
+        .bangla .subject-title {
+            background: #b42318;
+        }
+
+        .english .subject-title {
+            background: #344054;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px;
+            background: white;
+        }
+
+        th {
+            background: #f1f5f9;
+            color: #111827;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #d9dee7;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background: #fafafa;
+        }
+
+        /* Section headings */
+        h3 {
+            color: #111827;
+            margin: 18px 0 8px;
+            font-size: 18px;
+        }
+
+        h4 {
+            margin: 15px 0 5px;
+            color: #374151;
+        }
+
+        /* Formula */
+        .formula {
+            background: #f8fafc;
+            border: 1px solid #dbe3ed;
+            border-radius: 10px;
+            padding: 12px 15px;
+            margin: 8px 0;
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            color: #0f3d91;
+            overflow-x: auto;
+        }
+
+        /* Important */
+        .important {
+            background: #fff7d6;
+            border-left: 5px solid #f59e0b;
+            padding: 14px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .tip {
+            background: #e8f7ee;
+            border-left: 5px solid #198754;
+            padding: 14px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        /* Trigonometry */
+        .trig-table th {
+            background: #fff1dc;
+        }
+
+        .trig-table td {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .trig-memory {
+            background: #fff8eb;
+            border: 1px solid #f4c77b;
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        /* Revision plan */
+        .revision-table th {
+            background: #071952;
+            color: white;
+        }
+
+        .revision-table td:first-child {
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #071952;
+            color: white;
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer strong {
+            color: #ffd166;
+        }
+
+        /* Mobile */
+        @media (max-width: 650px) {
+
+            header h1 {
+                font-size: 23px;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .content {
+                padding: 14px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+
+            .subject-title {
+                font-size: 19px;
+            }
+
+            .revision-table {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏫 Notre Dame Group Division</h1>
+    <p>50 Marks — Science Group Crash Revision Sheet</p>
+</header>
+
+
+<div class="container">
+
+    <!-- INTRO -->
+    <div class="intro">
+        <h2>📚 Quick Revision Guide</h2>
+        <p>
+            এই ওয়েবসাইটটি Group Division Exam-এর আগে দ্রুত revision করার জন্য তৈরি।
+            Definition, Formula, Unit, Important Concept এবং Basic Facts-গুলো এখানে
+            একসাথে সাজানো হয়েছে।
+        </p>
+    </div>
+
+
+    <!-- CHEMISTRY -->
+    <section class="subject chemistry">
+
+        <div class="subject-title">
+            🧪 Chemistry — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>⚛️ পরমাণুর গঠন</h3>
+
+            <table>
+                <tr>
+                    <th>কণা</th>
+                    <th>আধান</th>
+                    <th>মূল তথ্য</th>
+                </tr>
+
+                <tr>
+                    <td>প্রোটন</td>
+                    <td>ধনাত্মক (+)</td>
+                    <td>পরমাণুর নিউক্লিয়াসে থাকে</td>
+                </tr>
+
+                <tr>
+                    <td>ইলেকট্রন</td>
+                    <td>ঋণাত্মক (−)</td>
+                    <td>নিউক্লিয়াসের চারপাশে থাকে</td>
+                </tr>
+
+                <tr>
+                    <td>নিউট্রন</td>
+                    <td>আধানহীন</td>
+                    <td>নিউক্লিয়াসে থাকে</td>
+                </tr>
+            </table>
+
+            <div class="formula">
+                পারমাণবিক সংখ্যা = প্রোটন সংখ্যা
+            </div>
+
+            <div class="formula">
+                ভর সংখ্যা = প্রোটন + নিউট্রন
+            </div>
+
+
+            <h3>🧩 মৌল, যৌগ ও মিশ্রণ</h3>
+
+            <table>
+                <tr>
+                    <th>বিষয়</th>
+                    <th>সংজ্ঞা</th>
+                </tr>
+
+                <tr>
+                    <td>মৌল</td>
+                    <td>এক ধরনের পরমাণু দিয়ে গঠিত পদার্থ।</td>
+                </tr>
+
+                <tr>
+                    <td>যৌগ</td>
+                    <td>দুই বা ততোধিক মৌল নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত।</td>
+                </tr>
+
+                <tr>
+                    <td>মিশ্রণ</td>
+                    <td>একাধিক পদার্থ রাসায়নিকভাবে যুক্ত না হয়ে একসাথে থাকে।</td>
+                </tr>
+            </table>
+
+
+            <h3>🔗 যোজ্যতা</h3>
+
+            <p>
+                কোনো মৌলের অন্য মৌলের সাথে যুক্ত হওয়ার ক্ষমতাকে
+                <strong>যোজ্যতা</strong> বলে।
+            </p>
+
+
+            <h3>🧪 Acid — Base</h3>
+
+            <table>
+                <tr>
+                    <th>pH</th>
+                    <th>ধরন</th>
+                </tr>
+
+                <tr>
+                    <td>pH &lt; 7</td>
+                    <td>অম্লীয়</td>
+                </tr>
+
+                <tr>
+                    <td>pH = 7</td>
+                    <td>নিরপেক্ষ</td>
+                </tr>
+
+                <tr>
+                    <td>pH &gt; 7</td>
+                    <td>ক্ষারীয়</td>
+                </tr>
+            </table>
+
+
+            <h3>🔥 রাসায়নিক পরিবর্তন</h3>
+
+            <p>
+                নতুন পদার্থ সৃষ্টি হলে তাকে রাসায়নিক পরিবর্তন বলে।
+            </p>
+
+            <div class="important">
+                <strong>উদাহরণ:</strong>
+                লোহার মরিচা ধরা, কাঠ পোড়া।
+            </div>
+
+
+            <h3>🔄 জারণ ও বিজারণ</h3>
+
+            <table>
+                <tr>
+                    <th>জারণ</th>
+                    <th>বিজারণ</th>
+                </tr>
+
+                <tr>
+                    <td>অক্সিজেন গ্রহণ / ইলেকট্রন ত্যাগ</td>
+                    <td>অক্সিজেন বর্জন / ইলেকট্রন গ্রহণ</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <!-- PHYSICS -->
+    <section class="subject physics">
+
+        <div class="subject-title">
+            ⚡ Physics — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>📐 গুরুত্বপূর্ণ সূত্র</h3>
+
+            <div class="formula">
+                দ্রুতি = দূরত্ব ÷ সময়
+            </div>
+
+            <div class="formula">
+                বেগ = সরণ ÷ সময়
+            </div>
+
+            <div class="formula">
+                ত্বরণ = বেগের পরিবর্তন ÷ সময়
+            </div>
+
+            <div class="formula">
+                F = ma
+            </div>
+
+            <div class="formula">
+                W = Fs
+            </div>
+
+            <div class="formula">
+                P = W/t
+            </div>
+
+            <div class="formula">
+                V = IR — ওহমের সূত্র
+            </div>
+
+
+            <h3>📏 গুরুত্বপূর্ণ একক</h3>
+
+            <table>
+                <tr>
+                    <th>রাশি</th>
+                    <th>একক</th>
+                </tr>
+
+                <tr>
+                    <td>ভর</td>
+                    <td>kg</td>
+                </tr>
+
+                <tr>
+                    <td>বল</td>
+                    <td>Newton</td>
+                </tr>
+
+                <tr>
+                    <td>কাজ</td>
+                    <td>Joule</td>
+                </tr>
+
+                <tr>
+                    <td>শক্তি</td>
+                    <td>Joule</td>
+                </tr>
+
+                <tr>
+                    <td>ক্ষমতা</td>
+                    <td>Watt</td>
+                </tr>
+
+                <tr>
+                    <td>তড়িৎ প্রবাহ</td>
+                    <td>Ampere</td>
+                </tr>
+
+                <tr>
+                    <td>বিভব পার্থক্য</td>
+                    <td>Volt</td>
+                </tr>
+
+                <tr>
+                    <td>রোধ</td>
+                    <td>Ohm</td>
+                </tr>
+            </table>
+
+
+            <h3>💡 আলো</h3>
+
+            <table>
+                <tr>
+                    <th>বিষয়</th>
+                    <th>অর্থ</th>
+                </tr>
+
+                <tr>
+                    <td>প্রতিফলন</td>
+                    <td>আলো কোনো পৃষ্ঠে পড়ে ফিরে আসা।</td>
+                </tr>
+
+                <tr>
+                    <td>প্রতিসরণ</td>
+                    <td>এক মাধ্যম থেকে অন্য মাধ্যমে গেলে আলোর গতিপথ পরিবর্তন।</td>
+                </tr>
+
+                <tr>
+                    <td>উত্তল লেন্স</td>
+                    <td>আলোকে অভিসারী করে।</td>
+                </tr>
+
+                <tr>
+                    <td>অবতল লেন্স</td>
+                    <td>আলোকে অপসারী করে।</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <!-- BIOLOGY -->
+    <section class="subject biology">
+
+        <div class="subject-title">
+            🧬 Biology — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>🔬 কোষ</h3>
+
+            <div class="tip">
+                <strong>কোষ:</strong>
+                জীবদেহের গঠন ও কাজের মৌলিক একক।
+            </div>
+
+            <table>
+                <tr>
+                    <th>কোষীয় অঙ্গাণু</th>
+                    <th>কাজ</th>
+                </tr>
+
+                <tr>
+                    <td>কেন্দ্রক</td>
+                    <td>কোষের কার্যক্রম নিয়ন্ত্রণ করে।</td>
+                </tr>
+
+                <tr>
+                    <td>মাইটোকন্ড্রিয়া</td>
+                    <td>শক্তি উৎপাদনে গুরুত্বপূর্ণ।</td>
+                </tr>
+
+                <tr>
+                    <td>রাইবোসোম</td>
+                    <td>প্রোটিন তৈরি করে।</td>
+                </tr>
+
+                <tr>
+                    <td>কোষঝিল্লি</td>
+                    <td>পদার্থের প্রবেশ ও বের হওয়া নিয়ন্ত্রণ করে।</td>
+                </tr>
+
+                <tr>
+                    <td>ক্লোরোপ্লাস্ট</td>
+                    <td>সালোকসংশ্লেষণে সাহায্য করে।</td>
+                </tr>
+            </table>
+
+
+            <h3>🌱 সালোকসংশ্লেষণ</h3>
+
+            <p>
+                উদ্ভিদ সূর্যের আলোর সাহায্যে কার্বন ডাই-অক্সাইড ও পানি থেকে
+                খাদ্য তৈরি করে।
+            </p>
+
+            <div class="formula">
+                CO₂ + H₂O → খাদ্য + O₂
+            </div>
+
+
+            <h3>🫁 শ্বসন</h3>
+
+            <p>
+                খাদ্য ভেঙে শক্তি উৎপন্ন করার প্রক্রিয়াকে শ্বসন বলে।
+            </p>
+
+
+            <h3>🫀 মানবদেহ</h3>
+
+            <table>
+                <tr>
+                    <th>অঙ্গ</th>
+                    <th>প্রধান কাজ</th>
+                </tr>
+
+                <tr>
+                    <td>হৃদপিণ্ড</td>
+                    <td>রক্ত সঞ্চালন</td>
+                </tr>
+
+                <tr>
+                    <td>ফুসফুস</td>
+                    <td>গ্যাসের আদান-প্রদান</td>
+                </tr>
+
+                <tr>
+                    <td>কিডনি</td>
+                    <td>রক্ত ছেঁকে বর্জ্য অপসারণ</td>
+                </tr>
+
+                <tr>
+                    <td>মস্তিষ্ক</td>
+                    <td>দেহের কার্যক্রম নিয়ন্ত্রণ</td>
+                </tr>
+            </table>
+
+
+            <h3>🩸 রক্ত</h3>
+
+            <table>
+                <tr>
+                    <th>উপাদান</th>
+                    <th>কাজ</th>
+                </tr>
+
+                <tr>
+                    <td>লোহিত রক্তকণিকা (RBC)</td>
+                    <td>অক্সিজেন পরিবহন</td>
+                </tr>
+
+                <tr>
+                    <td>শ্বেত রক্তকণিকা (WBC)</td>
+                    <td>রোগ প্রতিরোধ</td>
+                </tr>
+
+                <tr>
+                    <td>অণুচক্রিকা</td>
+                    <td>রক্ত জমাট বাঁধতে সাহায্য করে</td>
+                </tr>
+
+                <tr>
+                    <td>প্লাজমা</td>
+                    <td>বিভিন্ন পদার্থ পরিবহন</td>
+                </tr>
+            </table>
+
+
+            <h3>🧬 Genetics</h3>
+
+            <table>
+                <tr>
+                    <th>বিষয়</th>
+                    <th>তথ্য</th>
+                </tr>
+
+                <tr>
+                    <td>DNA</td>
+                    <td>বংশগত তথ্য বহন করে।</td>
+                </tr>
+
+                <tr>
+                    <td>জিন</td>
+                    <td>বংশগতির মৌলিক একক।</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <!-- HIGHER MATH -->
+    <section class="subject math">
+
+        <div class="subject-title">
+            ➗ Higher Mathematics — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>📚 বীজগণিতের গুরুত্বপূর্ণ সূত্র</h3>
+
+            <div class="formula">
+                (a + b)² = a² + 2ab + b²
+            </div>
+
+            <div class="formula">
+                (a − b)² = a² − 2ab + b²
+            </div>
+
+            <div class="formula">
+                a² − b² = (a + b)(a − b)
+            </div>
+
+
+            <h3>🔢 সূচক</h3>
+
+            <div class="formula">
+                aᵐ × aⁿ = aᵐ⁺ⁿ
+            </div>
+
+            <div class="formula">
+                aᵐ ÷ aⁿ = aᵐ⁻ⁿ
+            </div>
+
+            <div class="formula">
+                (aᵐ)ⁿ = aᵐⁿ
+            </div>
+
+
+            <h3>📐 ত্রিকোণমিতি</h3>
+
+            <table class="trig-table">
+
+                <tr>
+                    <th>অনুপাত</th>
+                    <th>বাংলা সূত্র</th>
+                </tr>
+
+                <tr>
+                    <td>sin θ</td>
+                    <td>লম্ব ÷ অতিভুজ</td>
+                </tr>
+
+                <tr>
+                    <td>cos θ</td>
+                    <td>ভূমি ÷ অতিভুজ</td>
+                </tr>
+
+                <tr>
+                    <td>tan θ</td>
+                    <td>লম্ব ÷ ভূমি</td>
+                </tr>
+
+            </table>
+
+
+            <div class="trig-memory">
+
+                <h4>🧠 সহজে মনে রাখো</h4>
+
+                <p>
+                    <strong>Sin → লম্ব / অতিভুজ</strong>
+                </p>
+
+                <p>
+                    <strong>Cos → ভূমি / অতিভুজ</strong>
+                </p>
+
+                <p>
+                    <strong>Tan → লম্ব / ভূমি</strong>
+                </p>
+
+            </div>
+
+
+            <div class="formula">
+                sin²θ + cos²θ = ১
+            </div>
+
+
+            <h3>📐 জ্যামিতি</h3>
+
+            <table>
+                <tr>
+                    <th>বিষয়</th>
+                    <th>সূত্র / তথ্য</th>
+                </tr>
+
+                <tr>
+                    <td>ত্রিভুজের তিন কোণের সমষ্টি</td>
+                    <td>১৮০°</td>
+                </tr>
+
+                <tr>
+                    <td>চতুর্ভুজের চার কোণের সমষ্টি</td>
+                    <td>৩৬০°</td>
+                </tr>
+
+                <tr>
+                    <td>বৃত্তের পরিধি</td>
+                    <td>২πr</td>
+                </tr>
+
+                <tr>
+                    <td>বৃত্তের ক্ষেত্রফল</td>
+                    <td>πr²</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <!-- BANGLA -->
+    <section class="subject bangla">
+
+        <div class="subject-title">
+            📖 বাংলা — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>✍️ ব্যাকরণ Priority</h3>
+
+            <table>
+                <tr>
+                    <th>ক্রম</th>
+                    <th>বিষয়</th>
+                </tr>
+
+                <tr><td>১</td><td>সন্ধি</td></tr>
+                <tr><td>২</td><td>সমাস</td></tr>
+                <tr><td>৩</td><td>কারক ও বিভক্তি</td></tr>
+                <tr><td>৪</td><td>বাগধারা</td></tr>
+                <tr><td>৫</td><td>এক কথায় প্রকাশ</td></tr>
+                <tr><td>৬</td><td>সমার্থক শব্দ</td></tr>
+                <tr><td>৭</td><td>বিপরীত শব্দ</td></tr>
+                <tr><td>৮</td><td>শুদ্ধ বানান</td></tr>
+                <tr><td>৯</td><td>সন্ধি বিচ্ছেদ</td></tr>
+                <tr><td>১০</td><td>সমাস নির্ণয়</td></tr>
+            </table>
+
+
+            <h3>📚 সাহিত্য</h3>
+
+            <div class="important">
+                SSC বই থেকে এগুলো দেখে রাখো:
+                <br><br>
+                • কবি/লেখকের নাম<br>
+                • রচনার নাম<br>
+                • গুরুত্বপূর্ণ চরিত্র<br>
+                • মূল বক্তব্য<br>
+                • গুরুত্বপূর্ণ ঘটনা
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ENGLISH -->
+    <section class="subject english">
+
+        <div class="subject-title">
+            🇬🇧 English — ১০ Marks
+        </div>
+
+        <div class="content">
+
+            <h3>📘 Basic Grammar — ৫ Marks</h3>
+
+            <table>
+                <tr>
+                    <th>Topic</th>
+                    <th>Priority</th>
+                </tr>
+
+                <tr>
+                    <td>Parts of Speech</td>
+                    <td>⭐</td>
+                </tr>
+
+                <tr>
+                    <td>Tense</td>
+                    <td>🔥</td>
+                </tr>
+
+                <tr>
+                    <td>Right Form of Verb</td>
+                    <td>🔥</td>
+                </tr>
+
+                <tr>
+                    <td>Subject-Verb Agreement</td>
+       
